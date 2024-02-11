@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-main-container{
+
+}
+.food-home-container{
+
+}
+.navabar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+}
+.hamburger i{
+   font-size: 30px;
+}
+.profile-food{
+  margin: 20px;
+  font-weight: 400;
+}
+.profile-food-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-food-img{
+
+}
+.profile-pic{}
+.profile-food-text{
+  text-align: left;
+  margin: 10px;
+  width: 30%;
+}
+.green-but{
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 20px;
+  border: 0px solid white;
+}
+.hero-head{
+  font-weight: 500;
+  font-size: 72px;
+  margin-bottom: 20px;
+ 
+}
+.hero-para{
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.yellow-but{
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(214, 214, 5);
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  border: 0px solid white;
+}
+.discounts{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px;
+}
+.dis-first{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  padding: 20px;
+  align-items: center;
+  
+}
+.dis-pic-con{
+  margin-right: 20px;
+}
+.sec-head{
+  text-align: center;
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.group-img{
+    padding: 70px;
+    display: grid;
+    gap: 10px;
+    grid-column-gap: -100px;
+    grid-template-areas: 
+    "img1 img1 img2 img3" 
+    "img1 img1 img2 img7"
+    "img4 img5 img6 img7" ;
+}
+.img1{
+  grid-area: img1;
+}
+.img2{
+  grid-area: img2;
+}
+.img3{
+  grid-area: img3;
+}
+.img4{
+  grid-area: img4;
+}
+.img5{
+  grid-area: img5;
+}
+.img6{
+  grid-area: img6;
+}
+.img7{
+  grid-area: img7;
+}
+
+.footer{
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  #fff0db;
+  color: grey;
+}
+.foot-text-con h4{
+  margin-bottom: 10px;
+}
+li{
+  list-style-type: none;
+  line-height: 25px;
+}
+.foot-but{
+  padding: 10px;
+  font-weight: 300;
+  font-size: 13px;
+  border: 0px solid white;
+  color: grey;
+  width: 200px;
+  margin-bottom: 10px;
+}
+p{
+  margin-bottom: 10px;
+}
+.icon-con i{
+ margin-right: 10px;
+}
